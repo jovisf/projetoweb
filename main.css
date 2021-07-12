@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+* {
+    font-family: 'Roboto Condensed',sans-serif;
+    background-color:black;
+
+}   
+
+html.body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+
+
+
+.profile-photo{
+    border-radius: 60%;
+    width:40%;
+}
+.header a{
+    text-decoration:none;
+    color:#0B610B ;
+    display: inline;
+}
+footer{
+    margin-bottom: 0rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+
+}
+
+
+
+
+.sociais a{
+    margin: 0 2rem;
+    color: #31B404;
+    
+}
+
+.sociais ul{
+    display: flex;
+    font-size: 1.3rem;
+
+}
+.footer-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
